@@ -2,7 +2,7 @@
   (:require [clojure.java.io :as io]))
 
 (comment
-  (dotimes [i 1000]
+  (dotimes [i 10]
     (let [filename
           (format
            "src/clojure_lsp_unused_public_var_misreports/generated/ns_%03d.clj"
